@@ -1,4 +1,4 @@
-# Analysis of Trending TV Shows using Twitter API
+# Analysis of Trending TV Guide Shows using Twitter API
 ___
 
 ### Overview
