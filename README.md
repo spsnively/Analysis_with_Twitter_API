@@ -2,7 +2,6 @@
 ___
 ### Author
 * Shannon Snively
-* Colin Cambo
 
 ### Overview
 This project analyzes trending tv shows by web scraping their titles and description from [tvguide.com](http://www.tvguide.com/trending-tonight), and querying through the Twitter API. The Twitter API processes tweets containing the titles of the tv shows with the argument of either time (in seconds) or quantity of the tweets the user is interested in collecting.
