@@ -5,7 +5,7 @@ ___
 * Colin Cambo
 
 ### Overview
-This project allows users to analyze what the latest and greatest trending tv shows are through twitter feeds. The way the code is designed to work is by web scraping [tvguide.com](http://www.tvguide.com/trending-tonight) for trending tv show titles and descriptions. The titles are stored in a list that is then queried through the Twitter API based on either the amount of tweets containing show titles or a given time (in seconds) that the twitter API will receive tweets from. 
+This project analyzes trending tv shows by web scraping their titles and description from [tvguide.com](http://www.tvguide.com/trending-tonight), and querying through the Twitter API. The Twitter API processes tweets containing the titles of the tv shows with the argument of either time (in seconds) or quantity of the tweets the user is interested in collecting.
 
 ### Requirements
 Before running this code you will need to create a new file within the directory called config_secret.json and insert your Twitter API keys in the following format:
